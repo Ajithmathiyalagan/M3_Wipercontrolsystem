@@ -50,11 +50,12 @@ When new command is given without completing the current command it will not tak
 #### Requirements
 ### High Level Requirements
 |ID	| |High Level Requirements|
+|:-: |:-----------:|:--------:|:------:|
 |HLR1|	|It will start the car|
 |HLR2| 	|It will start the wiper|
-HLR3	It shall see the speed of the wiper work
-HLR4	It will stop the wiper
-HLR5	It will stop the car
+|HLR3|	|It shall see the speed of the wiper work|
+|HLR4|  |It will stop the wiper|
+|HLR5| 	|It will stop the car|
 #### Low Level Requirements
 ID	Low Level Requirements for HLR1
 LLR1.1	If the User button is pressed Once, the red LED will be on
