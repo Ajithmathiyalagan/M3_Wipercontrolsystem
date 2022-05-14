@@ -49,9 +49,9 @@ Less cost
 When new command is given without completing the current command it will not take current command
 #### Requirements
 ### High Level Requirements
-ID	High Level Requirements
-HLR1	It will start the car
-HLR2	It will start the wiper
+|ID	| |High Level Requirements|
+|HLR1|	|It will start the car|
+|HLR2| 	|It will start the wiper|
 HLR3	It shall see the speed of the wiper work
 HLR4	It will stop the wiper
 HLR5	It will stop the car
