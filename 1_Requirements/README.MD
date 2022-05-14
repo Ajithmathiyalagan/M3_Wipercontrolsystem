@@ -49,21 +49,18 @@ Less cost
 When new command is given without completing the current command it will not take current command
 #### Requirements
 ## High Level Requirements
-| ID | High level requirements |
+| ID | Description | Category |	Status |
 |:-: |:-----------:|:--------:|:------:|
-| HRLR1 | it will start the car|
-| HRLR2 |it will start the wiper |
-| HRLR3 | it shall see the speed of wiper work|
-| HRLR4|it will stop the wiper |
-| HRLR5| it will stop the car|
-#### Low Level Requirements
-ID	Low Level Requirements for HLR1
-LLR1.1	If the User button is pressed Once, the red LED will be on
-ID	Low Level Requirements for HLR2
-LLR2.1	If the User Button is pressed TWICE, Blue,Green,Orange LED's come ON at a time with set of frequency
-ID	Low Level Requirements for HLR3
-LLR3.1	If the User Button is pressed THIRD time, ON All LED's in CLOCKWISE manner an speeed will increase
-ID	Low Level Requirements for HLR4
-LLR4.1	If the User Button is pressed FOURTH time ,all LED's on anticlock manner
-ID	Low Level Requirements for HLR5
-LLR5.1	If the User Button is pressed FIFTH times, the red LED will be off
+| HR01 | Can be able to keep the windscreen clean | Technical | Implemented |
+| HR02 | Can be able to windshield wipers clear the windshield of rain and snow | Technical | Implemented |
+| HR03 | Can be able to improve headlight visibility at night | Technical | Implemented |
+| HR04 | Can be able to driver to have a clear view | Technical | Implemented |
+
+
+## Low Level Requirements
+| ID | Description | HLR ID | Status (Implemented/Future) |
+|:-:|:-----------:|:------:|:---------------------------:|
+| LR01 | Driver can be able see the windscreen clean | HR01 | IMPLEMENTED |
+| LR02 | Same operation for windshield wipers clear the windshield of rain and snow | HR02 | IMPLEMENTED |
+| LR03 | Same operation for improve headlight visibility at night | HR03 | IMPLEMENTED |
+| LR04 | Same operation for driver to have a clear view | HR04 | IMPLEMENTED |
